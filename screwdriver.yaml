@@ -3,4 +3,19 @@ jobs:
     image: node:8
     requires: [~pr, ~commit]
     steps:
-      - sleep: sleep 1000
+      - sleep: sleep 1
+  component-2:
+    image: node:8
+    requires: [~pr, ~commit]
+    steps:
+      - sleep: sleep 1
+  component-3:
+    image: node:8
+    requires: [~pr, ~commit]
+    steps:
+      - sleep: sleep 1
+  component-4:
+    image: node:8
+    requires: [~pr, ~commit]
+    steps:
+      - sleep: sleep 1
