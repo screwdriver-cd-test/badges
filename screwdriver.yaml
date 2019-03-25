@@ -1,0 +1,6 @@
+jobs:
+  component:
+    image: node:8
+    requires: [~pr, ~commit]
+    steps:
+      - sleep: sleep 1000
