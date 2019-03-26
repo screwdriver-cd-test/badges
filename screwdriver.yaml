@@ -28,7 +28,7 @@ jobs:
     image: node:8
     requires: [component-1-1]
     steps:
-      - sleep: sleep 1
+      - sleep: sleep 1000
   component-1-3:
     image: node:8
     requires: [component-1-2]
